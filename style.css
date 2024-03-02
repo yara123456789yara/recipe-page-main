@@ -1,0 +1,213 @@
+body{
+    background-color:hsl(30, 54%, 90%);
+   
+}
+.container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    height: 1715px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+img{
+    margin: 15px;
+    border-radius: 10px;
+}
+h1{
+    font-family: "YoungSerif-Regular", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 15px;   
+}
+.text-1{
+    padding:8px;
+    margin-top: 1px;
+    margin-left: 10px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+   font-style: normal;
+}
+.p_t{
+    background-color: hsl(330, 100%, 98%);
+    width: 560px;
+    height: 200px;
+    margin:20px;
+    border-radius: 10px;
+
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    margin-left: 22px;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+ul{
+    margin: 15px;
+    font-family: "Yong Serif", sans-serif;
+    font-optical-sizing: auto;
+    
+   font-style: normal;
+    color: hsl(30, 10%, 34%);
+    margin-top:-7px ;
+    span{
+        font-weight: bold;
+        color: hsl(32, 10%, 26%);
+    }
+    
+}
+li{
+    padding: 7px;
+    margin-top:5px ;
+}
+.ing{
+    width: 560px;
+    height: 250px;
+    margin:10px;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+.part3{
+    color: hsl(14, 45%, 36%);
+}
+.inst{
+    width: 560px;
+    height: 445px;
+    margin:10px;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+.inst1{
+    color: hsl(14, 45%, 36%); 
+    margin-top: 5px; 
+    margin-left: 25px;
+}
+ol{
+    font-family: "Yong Serif", sans-serif;
+    font-optical-sizing: auto;
+   font-style: normal;
+    span{
+        font-weight: bold;
+        color: hsl(32, 10%, 26%);
+    }
+    li{
+        padding: 7px;
+    margin-top:5px ;
+    color: hsl(30, 10%, 34%);
+    }
+}
+.nut1{
+    color: hsl(14, 45%, 36%);
+    margin: 20px;
+}
+.text2{
+    color: hsl(30, 10%, 34%);
+    margin: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 600;
+}
+.info{
+    margin-bottom: 5px;
+}
+
+.info1{
+color: hsl(30, 10%, 34%);
+font-family: "Yong Serif", sans-serif;
+padding: 10px;
+margin: 10px;
+border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.info2{
+    color: hsl(30, 10%, 34%);
+    font-family: "Yong Serif", sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+    .info3{
+        color: hsl(30, 10%, 34%);
+        font-family: "Yong Serif", sans-serif;
+        padding: 10px;
+        margin: 10px;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        }
+        .info4{
+            color: hsl(30, 10%, 34%);
+            font-family: "Yong Serif", sans-serif;
+            padding: 10px;
+            margin: 10px;
+            
+            }
+.num{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.word-gap1{
+    margin-right: 250px;
+}
+.word-gap2{
+    margin-right: 270px;
+}
+.word-gap3{
+    margin-right: 260px;
+}
+.word-gap4{
+    margin-right: 290px;
+}
+@media (max-width:375px) {
+    body{
+        background-color:hsl(30, 54%, 90%);
+       
+    }
+    .container{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin: auto;
+        width: 270px;
+        height: 2030px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+    }
+    .p_t{
+        background-color: hsl(330, 100%, 98%);
+        width: 250px;
+        height: 230px;
+        margin: 10px;
+        align-content: center;
+        border-radius: 10px;
+    
+    }
+    .ing{
+        width:260px;
+        height: 280px;
+        margin:5px;
+        border-bottom: 1px solid hsl(30, 10%, 34%);
+    }
+    .inst{
+        width: 260px;
+        height: 750px;
+        margin:5px;
+        border-bottom: 1px solid hsl(30, 10%, 34%);
+    }
+    .word-gap1{
+        margin-right: 60px;
+    }
+    .word-gap2{
+        margin-right: 74px;
+    }
+    .word-gap3{
+        margin-right: 65px;
+    }
+    .word-gap4{
+        margin-right: 89px;
+    }
+}
